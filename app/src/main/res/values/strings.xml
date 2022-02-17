@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="eqv">=</string>string>
+    <string name="plus">+</string>string>
+    <string name="substruction">-</string>string>
+    <string name="backspace">⌫</string>
+    <string name="dot">,</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+    <string name="multiply">×</string>
+    <string name="division">÷</string>
+    <string name="clear">C</string>
+    <string name="l_bracket">(</string>
+    <string name="r_bracket">)</string>
+    <string name="sqrt">√</string>
+    <string name="cub_rt">∛</string>
+    <string name="tangent">tn</string>
+    <string name="sine">sin</string>
+    <string name="cosine">cos</string>
+    <string name="pi_number">π</string>
+    <string name="x_raised_to_the_power_y">x^y</string>
+    <string name="one_to_x">1/x</string>
+    <string name="zero_error">division by zero!</string>
+
+
+
+</resources>
