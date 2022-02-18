@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="RegularBtn">
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_marginTop">4dp</item>
         <item name="android:layout_marginBottom">4dp</item>
@@ -12,14 +12,12 @@
         <item name="android:insetBottom">0dp</item>
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">@color/DarkBack</item>
-        <!--<item name="android:onClick">onDigit</item>-->
     </style>
 
     <style name="ActBtn" parent="RegularBtn">
         <item name="android:textColor">@color/Lilac1Text</item>
         <item name="android:backgroundTint">@color/Lilac1</item>
         <item name="android:textAllCaps">false</item>
-        <!--<item name="android:onClick">onAction</item>-->
     </style>
 
 </resources>

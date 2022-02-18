@@ -103,7 +103,6 @@
     <Button
         android:id="@+id/btn_c"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/clear"
         app:layout_constraintBottom_toTopOf="@id/btn7"
         app:layout_constraintEnd_toStartOf="@id/guideline500"
@@ -113,7 +112,6 @@
     <Button
         android:id="@+id/btn7"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/seven"
         app:layout_constraintBottom_toTopOf="@id/btn4"
         app:layout_constraintEnd_toStartOf="@id/guideline500"
@@ -123,7 +121,6 @@
     <Button
         android:id="@+id/btn4"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/four"
         app:layout_constraintBottom_toTopOf="@id/btn1"
         app:layout_constraintEnd_toStartOf="@id/guideline500"
@@ -133,7 +130,6 @@
     <Button
         android:id="@+id/btn1"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/one"
         app:layout_constraintBottom_toTopOf="@id/btn0"
         app:layout_constraintEnd_toStartOf="@id/guideline500"
@@ -143,7 +139,6 @@
     <Button
         android:id="@+id/btn0"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/zero"
         app:layout_constraintBottom_toTopOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline500"
@@ -153,7 +148,6 @@
     <Button
         android:id="@+id/btn_div"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/division"
         app:layout_constraintBottom_toTopOf="@id/btn8"
         app:layout_constraintEnd_toStartOf="@id/guideline664"
@@ -163,7 +157,6 @@
     <Button
         android:id="@+id/btn8"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/eight"
         app:layout_constraintBottom_toTopOf="@id/btn5"
         app:layout_constraintEnd_toStartOf="@id/guideline664"
@@ -173,7 +166,6 @@
     <Button
         android:id="@+id/btn5"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/five"
         app:layout_constraintBottom_toTopOf="@id/btn2"
         app:layout_constraintEnd_toStartOf="@id/guideline664"
@@ -183,7 +175,6 @@
     <Button
         android:id="@+id/btn2"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/two"
         app:layout_constraintBottom_toTopOf="@id/btn00"
         app:layout_constraintEnd_toStartOf="@id/guideline664"
@@ -193,7 +184,6 @@
     <Button
         android:id="@+id/btn00"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/double_zero"
         app:layout_constraintBottom_toTopOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline664"
@@ -203,7 +193,6 @@
     <Button
         android:id="@+id/btn_mult"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/multiply"
         app:layout_constraintBottom_toTopOf="@id/btn9"
         app:layout_constraintEnd_toStartOf="@id/guideline828"
@@ -213,7 +202,6 @@
     <Button
         android:id="@+id/btn9"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/nine"
         app:layout_constraintBottom_toTopOf="@id/btn6"
         app:layout_constraintEnd_toStartOf="@id/guideline828"
@@ -223,7 +211,6 @@
     <Button
         android:id="@+id/btn6"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/six"
         app:layout_constraintBottom_toTopOf="@id/btn3"
         app:layout_constraintEnd_toStartOf="@id/guideline828"
@@ -233,7 +220,6 @@
     <Button
         android:id="@+id/btn3"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/three"
         app:layout_constraintBottom_toTopOf="@id/btn_dot"
         app:layout_constraintEnd_toStartOf="@id/guideline828"
@@ -243,7 +229,6 @@
     <Button
         android:id="@+id/btn_dot"
         style="@style/RegularBtn"
-        android:layout_width="0dp"
         android:text="@string/dot"
         app:layout_constraintBottom_toTopOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline828"
@@ -253,7 +238,6 @@
     <Button
         android:id="@+id/btn_back"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/backspace"
         app:layout_constraintBottom_toTopOf="@+id/btn_substr"
         app:layout_constraintEnd_toEndOf="@id/guidelineVRight"
@@ -263,7 +247,6 @@
     <Button
         android:id="@+id/btn_substr"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/substruction"
         app:layout_constraintBottom_toTopOf="@+id/btn_plus"
         app:layout_constraintEnd_toEndOf="@id/guidelineVRight"
@@ -273,7 +256,6 @@
     <Button
         android:id="@+id/btn_plus"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:layout_marginBottom="0dp"
         android:text="@string/plus"
         app:layout_constraintBottom_toBottomOf="@id/btn6"
@@ -284,7 +266,6 @@
     <Button
         android:id="@+id/btn_equals"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:layout_marginTop="0dp"
         android:text="@string/eqv"
         app:layout_constraintBottom_toTopOf="@+id/guidelineHBottom"
@@ -295,7 +276,6 @@
     <Button
         android:id="@+id/btn_l_bracket"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/l_bracket"
         app:layout_constraintBottom_toTopOf="@+id/btn_sqrt"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
@@ -305,7 +285,6 @@
     <Button
         android:id="@+id/btn_sqrt"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/sqrt"
         app:layout_constraintBottom_toTopOf="@+id/btn_cub_root"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
@@ -315,7 +294,6 @@
     <Button
         android:id="@+id/btn_cub_root"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/cub_rt"
         app:layout_constraintBottom_toTopOf="@id/btn_tn"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
@@ -325,7 +303,6 @@
     <Button
         android:id="@+id/btn_tn"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/tangent"
         app:layout_constraintBottom_toTopOf="@id/btn_sin"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
@@ -335,7 +312,6 @@
     <Button
         android:id="@+id/btn_sin"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/sine"
         app:layout_constraintBottom_toBottomOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
@@ -345,7 +321,6 @@
     <Button
         android:id="@+id/btn_r_bracket"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/r_bracket"
         app:layout_constraintBottom_toTopOf="@+id/btn_1_to_x"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
@@ -355,7 +330,6 @@
     <Button
         android:id="@+id/btn_1_to_x"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/one_to_x"
         app:layout_constraintBottom_toTopOf="@+id/btn_x_pow_y"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
@@ -365,7 +339,6 @@
     <Button
         android:id="@+id/btn_x_pow_y"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/x_raised_to_the_power_y"
         app:layout_constraintBottom_toTopOf="@id/btn_pi"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
@@ -375,7 +348,6 @@
     <Button
         android:id="@+id/btn_pi"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/pi_number"
         app:layout_constraintBottom_toTopOf="@id/btn_cos"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
@@ -385,7 +357,6 @@
     <Button
         android:id="@+id/btn_cos"
         style="@style/ActBtn"
-        android:layout_width="0dp"
         android:text="@string/cosine"
         app:layout_constraintBottom_toBottomOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
