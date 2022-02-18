@@ -33,9 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="@+id/guidelineVRight"
-        app:layout_constraintGuide_percent="0.3"
-        app:layout_constraintStart_toStartOf="@+id/guidelineVLeft" />
+        app:layout_constraintGuide_percent="0.3" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline174"
@@ -102,145 +100,197 @@
         app:layout_constraintStart_toStartOf="@+id/guidelineVLeft"
         app:layout_constraintTop_toBottomOf="@+id/expression" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_c"
+        style="@style/ActBtn"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
+        android:text="@string/clear"
+        app:layout_constraintBottom_toTopOf="@id/btn7"
+        app:layout_constraintEnd_toStartOf="@id/guideline500"
+        app:layout_constraintStart_toStartOf="@+id/guideline342"
+        app:layout_constraintTop_toBottomOf="@+id/guideline30"/>
+
+    <Button
+        android:id="@+id/btn7"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/seven"
+        app:layout_constraintBottom_toTopOf="@id/btn4"
+        app:layout_constraintEnd_toStartOf="@id/guideline500"
+        app:layout_constraintStart_toStartOf="@+id/guideline342"
+        app:layout_constraintTop_toBottomOf="@+id/btn_c"/>
+
+    <Button
+        android:id="@+id/btn4"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/four"
+        app:layout_constraintBottom_toTopOf="@id/btn1"
+        app:layout_constraintEnd_toStartOf="@id/guideline500"
+        app:layout_constraintStart_toStartOf="@+id/guideline342"
+        app:layout_constraintTop_toBottomOf="@+id/btn7"/>
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/one"
+        app:layout_constraintBottom_toTopOf="@id/btn0"
+        app:layout_constraintEnd_toStartOf="@id/guideline500"
+        app:layout_constraintStart_toStartOf="@+id/guideline342"
+        app:layout_constraintTop_toBottomOf="@+id/btn4"/>
+
+    <Button
+        android:id="@+id/btn0"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/zero"
         app:layout_constraintBottom_toTopOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline500"
         app:layout_constraintStart_toStartOf="@+id/guideline342"
-        app:layout_constraintTop_toBottomOf="@+id/guideline30">
+        app:layout_constraintTop_toBottomOf="@+id/btn1"/>
 
-        <Button
-            android:id="@+id/btn_c"
-            style="@style/ActBtn"
-            android:text="@string/clear" />
-
-        <Button
-            android:id="@+id/btn7"
-            style="@style/RegularBtn"
-            android:text="@string/seven" />
-
-        <Button
-            android:id="@+id/btn4"
-            style="@style/RegularBtn"
-            android:text="@string/four" />
-
-        <Button
-            android:id="@+id/btn1"
-            style="@style/RegularBtn"
-            android:text="@string/one" />
-
-        <Button
-            android:id="@+id/btn0"
-            style="@style/RegularBtn"
-            android:text="@string/zero" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_div"
+        style="@style/ActBtn"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
+        android:text="@string/division"
+        app:layout_constraintBottom_toTopOf="@id/btn8"
+        app:layout_constraintEnd_toStartOf="@id/guideline664"
+        app:layout_constraintStart_toStartOf="@+id/guideline500"
+        app:layout_constraintTop_toBottomOf="@+id/guideline30"/>
+
+    <Button
+        android:id="@+id/btn8"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/eight"
+        app:layout_constraintBottom_toTopOf="@id/btn5"
+        app:layout_constraintEnd_toStartOf="@id/guideline664"
+        app:layout_constraintStart_toStartOf="@+id/guideline500"
+        app:layout_constraintTop_toBottomOf="@+id/btn_div"/>
+
+    <Button
+        android:id="@+id/btn5"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/five"
+        app:layout_constraintBottom_toTopOf="@id/btn2"
+        app:layout_constraintEnd_toStartOf="@id/guideline664"
+        app:layout_constraintStart_toStartOf="@+id/guideline500"
+        app:layout_constraintTop_toBottomOf="@+id/btn8"/>
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/two"
+        app:layout_constraintBottom_toTopOf="@id/btn00"
+        app:layout_constraintEnd_toStartOf="@id/guideline664"
+        app:layout_constraintStart_toStartOf="@+id/guideline500"
+        app:layout_constraintTop_toBottomOf="@+id/btn5"/>
+
+    <Button
+        android:id="@+id/btn00"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/double_zero"
         app:layout_constraintBottom_toTopOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline664"
         app:layout_constraintStart_toStartOf="@+id/guideline500"
-        app:layout_constraintTop_toBottomOf="@+id/guideline30">
+        app:layout_constraintTop_toBottomOf="@+id/btn2"/>
 
-        <Button
-            android:id="@+id/btn_div"
-            style="@style/ActBtn"
-            android:text="@string/division" />
-
-        <Button
-            android:id="@+id/btn8"
-            style="@style/RegularBtn"
-            android:text="@string/eight" />
-
-        <Button
-            android:id="@+id/btn5"
-            style="@style/RegularBtn"
-            android:text="@string/five" />
-
-        <Button
-            android:id="@+id/btn2"
-            style="@style/RegularBtn"
-            android:text="@string/two" />
-
-        <Button
-            android:id="@+id/btn00"
-            style="@style/RegularBtn"
-            android:text="@string/double_zero" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_mult"
+        style="@style/ActBtn"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
+        android:text="@string/multiply"
+        app:layout_constraintBottom_toTopOf="@id/btn9"
+        app:layout_constraintEnd_toStartOf="@id/guideline828"
+        app:layout_constraintStart_toStartOf="@id/guideline664"
+        app:layout_constraintTop_toBottomOf="@id/guideline30"/>
+
+    <Button
+        android:id="@+id/btn9"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/nine"
+        app:layout_constraintBottom_toTopOf="@id/btn6"
+        app:layout_constraintEnd_toStartOf="@id/guideline828"
+        app:layout_constraintStart_toStartOf="@+id/guideline664"
+        app:layout_constraintTop_toBottomOf="@id/btn_mult" />
+
+    <Button
+        android:id="@+id/btn6"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/six"
+        app:layout_constraintBottom_toTopOf="@id/btn3"
+        app:layout_constraintEnd_toStartOf="@id/guideline828"
+        app:layout_constraintStart_toStartOf="@+id/guideline664"
+        app:layout_constraintTop_toBottomOf="@id/btn9" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/three"
+        app:layout_constraintBottom_toTopOf="@id/btn_dot"
+        app:layout_constraintEnd_toStartOf="@id/guideline828"
+        app:layout_constraintStart_toStartOf="@+id/guideline664"
+        app:layout_constraintTop_toBottomOf="@id/btn6" />
+
+    <Button
+        android:id="@+id/btn_dot"
+        style="@style/RegularBtn"
+        android:layout_width="0dp"
+        android:text="@string/dot"
         app:layout_constraintBottom_toTopOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline828"
         app:layout_constraintStart_toStartOf="@+id/guideline664"
-        app:layout_constraintTop_toBottomOf="@+id/guideline30">
+        app:layout_constraintTop_toBottomOf="@id/btn3" />
 
-        <Button
-            android:id="@+id/btn_mult"
-            style="@style/ActBtn"
-            android:text="@string/multiply" />
-
-        <Button
-            android:id="@+id/btn9"
-            style="@style/RegularBtn"
-            android:text="@string/nine" />
-
-        <Button
-            android:id="@+id/btn6"
-            style="@style/RegularBtn"
-            android:text="@string/six" />
-
-        <Button
-            android:id="@+id/btn3"
-            style="@style/RegularBtn"
-            android:text="@string/three" />
-
-        <Button
-            android:id="@+id/btn_dot"
-            style="@style/RegularBtn"
-            android:text="@string/dot" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/ActBtn"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@id/guidelineHBottom"
-        app:layout_constraintEnd_toStartOf="@id/guidelineVRight"
-        app:layout_constraintStart_toStartOf="@+id/guideline828"
-        app:layout_constraintTop_toBottomOf="@+id/guideline30">
+        android:text="@string/backspace"
+        app:layout_constraintBottom_toTopOf="@+id/btn_substr"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVRight"
+        app:layout_constraintStart_toEndOf="@id/guideline828"
+        app:layout_constraintTop_toBottomOf="@id/guideline30"/>
 
-        <Button
-            android:id="@+id/btn_back"
-            style="@style/ActBtn"
-            android:text="@string/backspace" />
+    <Button
+        android:id="@+id/btn_substr"
+        style="@style/ActBtn"
+        android:layout_width="0dp"
+        android:text="@string/substruction"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVRight"
+        app:layout_constraintStart_toEndOf="@id/guideline828"
+        app:layout_constraintTop_toBottomOf="@id/btn_back"/>
 
-        <Button
-            android:id="@+id/btn_substr"
-            style="@style/ActBtn"
-            android:text="@string/substruction" />
+    <Button
+        android:id="@+id/btn_plus"
+        style="@style/ActBtn"
+        android:layout_width="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/plus"
+        app:layout_constraintBottom_toBottomOf="@id/btn6"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVRight"
+        app:layout_constraintStart_toEndOf="@id/guideline828"
+        app:layout_constraintTop_toBottomOf="@id/btn_substr" />
 
-        <Button
-            android:id="@+id/btn_plus"
-            style="@style/ActBtn"
-            android:text="@string/plus" />
-
-        <Button
-            android:id="@+id/btn_equals"
-            style="@style/ActBtn"
-            android:layout_height="0dp"
-            android:layout_weight="2.15"
-            android:text="@string/eqv" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/btn_equals"
+        style="@style/ActBtn"
+        android:layout_width="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/eqv"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHBottom"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVRight"
+        app:layout_constraintStart_toEndOf="@id/guideline828"
+        app:layout_constraintTop_toTopOf="@+id/btn3" />
 
     <Button
         android:id="@+id/btn_l_bracket"
@@ -249,7 +299,6 @@
         android:text="@string/l_bracket"
         app:layout_constraintBottom_toTopOf="@+id/btn_sqrt"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guidelineVLeft"
         app:layout_constraintTop_toBottomOf="@+id/guideline30" />
 
@@ -260,7 +309,6 @@
         android:text="@string/sqrt"
         app:layout_constraintBottom_toTopOf="@+id/btn_cub_root"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guidelineVLeft"
         app:layout_constraintTop_toBottomOf="@+id/btn_l_bracket" />
 
@@ -271,7 +319,6 @@
         android:text="@string/cub_rt"
         app:layout_constraintBottom_toTopOf="@id/btn_tn"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guidelineVLeft"
         app:layout_constraintTop_toBottomOf="@id/btn_sqrt" />
 
@@ -282,9 +329,9 @@
         android:text="@string/tangent"
         app:layout_constraintBottom_toTopOf="@id/btn_sin"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guidelineVLeft"
         app:layout_constraintTop_toBottomOf="@id/btn_cub_root" />
+
     <Button
         android:id="@+id/btn_sin"
         style="@style/ActBtn"
@@ -292,7 +339,6 @@
         android:text="@string/sine"
         app:layout_constraintBottom_toBottomOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline174"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guidelineVLeft"
         app:layout_constraintTop_toBottomOf="@id/btn_tn" />
 
@@ -303,7 +349,6 @@
         android:text="@string/r_bracket"
         app:layout_constraintBottom_toTopOf="@+id/btn_1_to_x"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guideline174"
         app:layout_constraintTop_toBottomOf="@+id/guideline30" />
 
@@ -314,7 +359,6 @@
         android:text="@string/one_to_x"
         app:layout_constraintBottom_toTopOf="@+id/btn_x_pow_y"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guideline174"
         app:layout_constraintTop_toBottomOf="@+id/btn_r_bracket" />
 
@@ -325,7 +369,6 @@
         android:text="@string/x_raised_to_the_power_y"
         app:layout_constraintBottom_toTopOf="@id/btn_pi"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guideline174"
         app:layout_constraintTop_toBottomOf="@id/btn_1_to_x" />
 
@@ -336,9 +379,9 @@
         android:text="@string/pi_number"
         app:layout_constraintBottom_toTopOf="@id/btn_cos"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guideline174"
         app:layout_constraintTop_toBottomOf="@id/btn_x_pow_y" />
+
     <Button
         android:id="@+id/btn_cos"
         style="@style/ActBtn"
@@ -346,9 +389,7 @@
         android:text="@string/cosine"
         app:layout_constraintBottom_toBottomOf="@id/guidelineHBottom"
         app:layout_constraintEnd_toStartOf="@id/guideline342"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/guideline174"
         app:layout_constraintTop_toBottomOf="@id/btn_pi" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
