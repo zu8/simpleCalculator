@@ -30,7 +30,7 @@
     <string name="x_raised_to_the_power_y">x^y</string>
     <string name="one_to_x">1/x</string>
     <string name="zero_error">division by zero!</string>
-
-
+    <string name="Category_theme">Theme settings</string>
+    <string name="dark_theme">Dark theme</string>
 
 </resources>
